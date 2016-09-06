@@ -1,0 +1,14 @@
+{
+    "name": "pelletiermaxime/laravel-selenium",
+    "autoload": {
+        "psr-4": {
+            "Pelletiermaxime\\LaravelSelenium\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit-selenium": "^3.0",
+        "symfony/process": "^3.1",
+        "illuminate/support": "^5.3",
+        "phpunit/phpunit": "^5.5"
+    }
+}
