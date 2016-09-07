@@ -22,7 +22,7 @@ class SeleniumDownloadCommand extends Command
         $this->chromeDriverDownloader = $chromeDriverDownloader;
 
         $this->handleSelenium();
-        // $this->handleChromeDriver();
+        $this->handleChromeDriver();
     }
 
     private function handleSelenium()
@@ -38,9 +38,11 @@ class SeleniumDownloadCommand extends Command
 
         $downloadURL = $this->seleniumDownloader->getDownloadURL($version);
 
+        $this->info("Downloading $downloadURL");
+
         $seleniumDestination = $this->seleniumDownloader->saveFile($downloadURL);
 
-        $this->info("Downloading $downloadURL and saving to $seleniumDestination");
+        $this->info("Driver successfully saved to $seleniumDestination");
     }
 
     private function handleChromeDriver()
@@ -54,6 +56,12 @@ class SeleniumDownloadCommand extends Command
             $lastVersionKey
         );
 
-        echo $version;
+        $downloadURL = $this->chromeDriverDownloader->getDownloadURL($version);
+
+        $this->info("Downloading $downloadURL");
+
+        $chromeDestination = $this->chromeDriverDownloader->saveFile($downloadURL);
+
+        $this->info("Driver successfully saved to $chromeDestination");
     }
 }
