@@ -1,6 +1,7 @@
 {
     "name": "pelletiermaxime/laravel-selenium",
     "description": "Helpers to write Selenium tests in Laravel.",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Pelletiermaxime\\LaravelSelenium\\": "src/"
