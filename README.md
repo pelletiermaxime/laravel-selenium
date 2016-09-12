@@ -1,6 +1,7 @@
 # Laravel Selenium
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Latest Stable Version](https://poser.pugx.org/pelletiermaxime/laravel-selenium/v/stable.svg)](link-packagist)
+[![Latest Unstable Version](https://poser.pugx.org/pelletiermaxime/laravel-selenium/v/unstable.svg)](link-packagist)
 [![Software License][ico-license]](LICENSE.md)
 <!-- [![Coverage Status][ico-scrutinizer]][link-scrutinizer] -->
 <!-- [![Quality Score][ico-code-quality]][link-code-quality] -->
@@ -45,7 +46,6 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/pelletiermaxime/laravel-selenium.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/pelletiermaxime/laravel-selenium/master.svg?style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pelletiermaxime/laravel-selenium.svg?style=flat-square
